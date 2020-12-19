@@ -10,11 +10,9 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
-
 def talk(text):
     engine.say(text)
     engine.runAndWait()
-
 
 def take_command():
     try:
@@ -29,7 +27,6 @@ def take_command():
     except:
         pass
     return command
-
 
 def run_alexa():
     command = take_command()
@@ -54,7 +51,6 @@ def run_alexa():
         talk(pyjokes.get_joke())
     else:
         talk('Please say the command again.')
-
 
 while True:
     run_alexa()
