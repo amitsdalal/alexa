@@ -6,4 +6,4 @@
 `python alexa-ad.py`
 
 
-### export this into path and you can using alexa from cli
+### export this into path and you can use alexa from cli
