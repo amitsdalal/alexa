@@ -1,1 +1,2 @@
-Alexa using Python
+##Alexa using Python
+pip install -r requierments.txt
